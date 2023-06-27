@@ -1,0 +1,62 @@
+/* Reset default browser styles */
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set a base font size and line height */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Define global styles */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 60px 40px 60px;
+}
+
+/* Define styles for navigation */
+.navbar {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar li {
+  margin-right: 10px;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Define styles for content area */
+.content {
+  margin-top: 20px;
+}
+
+/* Define styles for buttons */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.button:hover {
+  background-color: #555;
+}
