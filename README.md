@@ -23,17 +23,17 @@ This repository contains a full stack application built with Typescript. The rep
 
 2. Navigate into the cloned repository:
 
-```
-cd full-stack-typescript-app
-```
+   ```
+   cd fullstack_AI
+   ```
 
 3. Build and run the Docker containers for the backend and frontend:
 
-```
-docker-compose up
-```
+   ```
+   docker-compose up
+   ```
 
-> This command will start both services. The frontend will be available at `http://localhost:3000` and the backend at `http://localhost:8080`.
+> This command will start both services. The frontend will be available at `http://localhost:3000` and the backend at `http://localhost:3001`.
 
 ### Environment Variables
 
